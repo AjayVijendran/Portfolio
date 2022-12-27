@@ -39,9 +39,8 @@
 	padding:1.5em;
 	height: 100%;
 }
-.abtcontainer header{
+.abtcontainer h2{
 	text-decoration: underline;
-	padding: 1em;
 	color: black;
 }
 .abtcontainer nav{
