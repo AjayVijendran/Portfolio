@@ -1,0 +1,29 @@
+.contact_container{
+    font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	background-color: #b5651d;
+	padding:1.5em;
+}
+
+.contact_container nav{
+	border: 0.25em solid black;
+    margin-bottom: 10px;
+}
+.contact_container nav ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+}
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}

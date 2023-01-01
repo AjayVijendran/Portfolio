@@ -17,6 +17,7 @@ const cformdb = ref(db,"Form");
 //retrieving data from firebase
 function getdata(){
     onValue(cformdb,(snapshot)=>{
+        sno=0;
         var array = [];
         snapshot.forEach(element => {
             array.push(element.val());
@@ -25,7 +26,7 @@ function getdata(){
     })
 }
 //storing retrieved data in table format
-var sno=0;
+var sno = 0;
 var tbody = document.getElementById('tbody1');
 function additem(name,mail,msg){
     let trow = document.createElement('tr');
